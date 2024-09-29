@@ -1,0 +1,11 @@
+{
+    "name": "Python Dev Container",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": "."
+    },
+    "extensions": [
+      "ms-python.python"
+    ]
+  }
+  
