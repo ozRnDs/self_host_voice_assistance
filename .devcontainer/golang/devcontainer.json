@@ -1,0 +1,16 @@
+{
+    "name": "LiveKit Dev Container",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": "."
+    },
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/sh"
+    },
+    "extensions": [
+      "golang.Go",         // Go language support
+      "ms-azuretools.vscode-docker" // Docker support
+    ],
+    "remoteUser": "root",
+  }
+  
